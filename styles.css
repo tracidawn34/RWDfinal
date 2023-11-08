@@ -1,0 +1,105 @@
+@font-face{
+    font-family: "Crimson Text", serif;
+    font-family: "Joan", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Joan&display=swap");
+}
+
+body{
+    margin: 0;
+    font-size: 10px;
+background: linear-gradient(rgb(65, 155, 162) 30%, rgb(148, 62, 241) );
+ color: aliceblue;}
+
+#main-header{
+   border-top: 3px solid rgb(171, 166, 102);
+   border-bottom: 3px solid rgb(171, 166, 102);
+   height: 15vh;
+   width:100%;
+   font-size: 2em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+letter-spacing: 4px;
+}
+h1{
+    text-align: center;
+}
+.heading{
+    font-family: "Joan", sans-serif;
+    letter-spacing: 3px;
+    font-size: 2em;
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: .5rem;
+    
+  }
+  .nav-list {
+    display: flex;
+    margin-right: 2rem;
+  }
+  nav p {
+    height: 50px;
+    width: 200px;
+    letter-spacing: 4px;
+    border: 2px solid rgb(171, 166, 102);;
+    border-radius: 3%;
+    padding-top: 10px;
+    text-align: center;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+p, li{
+    font-family: serif, 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+
+}
+#See{
+    text-align: center;
+}
+ul{
+    list-style-type: square;
+    
+}
+#head{
+   
+    margin-left: 50px;
+    margin-right: 20px;
+}
+nav li:hover {
+    list-style-type: none;
+    background-color: rgb(46, 129, 188);
+    text-decoration: none;
+    
+ 
+ 
+ }
+ 
+ a li:hover{
+     color: black;
+ }
+ 
+ a:hover{
+     text-decoration: none;
+      color:rgb(171, 166, 102); ;  
+ }
+ 
+ a:active{
+     color: aliceblue;
+ }
+img{
+    height: 13px;
+}
